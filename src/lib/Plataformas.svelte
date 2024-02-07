@@ -121,4 +121,20 @@
     .tiktokMusicClass:hover {
         border: 2px solid var(--mid-white);
     }
+
+    @media(max-width: 468px) {
+        h2 {
+            font-size: 22px;
+        }
+
+        .plataformsList {
+        gap: 1rem;
+    }
+
+        .plataformsList a {
+        padding: 0.6rem;
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    }
 </style>

@@ -98,4 +98,29 @@
         justify-content: space-between;
         align-items: start;
     }
+
+    @media(max-width: 468px) {
+        .header {
+            max-width: 80%;
+        }
+        ul {
+            justify-content: center;
+            padding-left: 0;
+        }
+
+        a {
+            font-size: 16px;
+        }
+
+        #musicas {
+            max-width: 90%;
+        }
+
+        #redes {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
 </style>

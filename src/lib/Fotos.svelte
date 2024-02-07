@@ -100,4 +100,10 @@
         grid-row-start: 5;
         grid-row-end: 7;
     }
+
+    @media(max-width: 468px) {
+        h2 {
+            font-size: 22px;
+        }
+    }
 </style>

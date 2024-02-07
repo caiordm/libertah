@@ -1,16 +1,32 @@
 <script>
     import instagramLogo from "../images/instagram.png";
     import tiktokLogo from "../images/tik-tok.png";
+    import youtubeLogo from "../images/youtube.png"
 </script>
 
 <div class="redesAqui">
     <h2>Redes Sociais</h2>
     <div class="redesList">
-        <a href="https://www.instagram.com/bandalibertah/" target="_blank" class="instagramClass">
+        <a
+            href="https://www.instagram.com/bandalibertah/"
+            target="_blank"
+            class="instagramClass"
+        >
             <img src={instagramLogo} alt="Instagam" title="Instagam" />
         </a>
-        <a href="https://www.tiktok.com/@bandalibertah" target="_blank" class="tiktokClass">
+        <a
+            href="https://www.tiktok.com/@bandalibertah"
+            target="_blank"
+            class="tiktokClass"
+        >
             <img src={tiktokLogo} alt="TikTok" title="TikTok" />
+        </a>
+        <a
+            href="https://www.youtube.com/channel/UCI1ZYryfTnleRv_B3paUWAQ"
+            target="_blank"
+            class="youtubeClass"
+        >
+            <img src={youtubeLogo} alt="Youtube" title="Youtube" />
         </a>
     </div>
 </div>
@@ -57,14 +73,41 @@
     }
 
     .tiktokClass:focus {
-        background-color: #69C9D0;
-        border: 2px solid #69C9D0;
+        background-color: #69c9d0;
+        border: 2px solid #69c9d0;
         outline: none;
     }
 
     .tiktokClass:hover {
-        background-color: #69C9D0;
-        border: 2px solid #69C9D0;
+        background-color: #69c9d0;
+        border: 2px solid #69c9d0;
     }
 
+    .youtubeClass:focus {
+        background-color: #ff0000;
+        border: 2px solid #ff0000;
+        outline: none;
+    }
+
+    .youtubeClass:hover {
+        background-color: #ff0000;
+        border: 2px solid #ff0000;
+    }
+
+    @media (max-width: 468px) {
+        h2 {
+            font-size: 22px;
+        }
+
+        .redesList {
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .redesAqui {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 </style>

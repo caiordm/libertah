@@ -30,6 +30,21 @@
         font-size: 12px;
     }
 
+    @media(max-width: 468px) {
+        .final {
+            align-items: center;
+        }
+
+        span {
+            font-size: 10px;
+        }
+    }
+
+    @media(max-width: 400px) {
+        span {
+            font-size: 7px;
+        }
+    }
     /* p {
         display: flex;
         align-items: center;

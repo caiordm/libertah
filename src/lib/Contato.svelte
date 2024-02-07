@@ -7,11 +7,19 @@
 <div class="contatos">
     <div class="whatsapp contact">
         <h3>Whatsapp</h3>
-        <a href="https://wa.me/81988777137"><img src={whatsappLogo} alt="Whatsapp" title="Whatsapp"><span>(81) 9 1234-5678</span></a>
+        <a href="https://wa.me/81988777137"
+            ><img src={whatsappLogo} alt="Whatsapp" title="Whatsapp" /><span
+                >(81) 9 1234-5678</span
+            ></a
+        >
     </div>
     <div class="email contact">
         <h3>Email</h3>
-        <a href="mailto:bandalibertah@gmail.com"><img src={gmailLogo} alt="Email" title="Email"><span>bandalibertah@gmail.com</span></a>
+        <a href="mailto:bandalibertah@gmail.com"
+            ><img src={gmailLogo} alt="Email" title="Email" /><span
+                >bandalibertah@gmail.com</span
+            ></a
+        >
     </div>
 </div>
 
@@ -60,5 +68,16 @@
 
     img {
         max-width: 2rem;
+    }
+
+    @media (max-width: 468px) {
+        h2 {
+            font-size: 22px;
+        }
+
+        .contatos {
+            flex-direction: column;
+            gap: 1rem;
+        }
     }
 </style>

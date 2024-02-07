@@ -16,4 +16,10 @@
         color: var(--mid-white);
         font-size: 32px;
     }
+
+    @media(max-width: 468px) {
+        h2 {
+            font-size: 22px;
+        }
+    }
 </style>
