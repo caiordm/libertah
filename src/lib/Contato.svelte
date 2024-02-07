@@ -9,7 +9,7 @@
         <h3>Whatsapp</h3>
         <a href="https://wa.me/81988777137"
             ><img src={whatsappLogo} alt="Whatsapp" title="Whatsapp" /><span
-                >(81) 9 1234-5678</span
+                >(81) 9 0000-0000</span
             ></a
         >
     </div>

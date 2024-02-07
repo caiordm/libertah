@@ -11,13 +11,13 @@
 
 <h2>Veja nossas fotos</h2>
 <div class="fotosList">
-    <img src={foto1} alt="Fotos da Libertah" class="foto1" />
+    <img src={foto1} alt="Fotos da Libertah" class="foto1" id="foto1"/>
     <img src={foto2} alt="Fotos da Libertah" class="foto2" />
     <img src={foto3} alt="Fotos da Libertah" class="foto3" />
     <img src={foto5} alt="Fotos da Libertah" class="foto5" />
     <img src={foto6} alt="Fotos da Libertah" class="foto6" />
     <img src={logo} alt="Fotos da Libertah" class="logo" />
-    <img src={foto7} alt="Fotos da Libertah" class="foto7" />
+    <img src={foto7} alt="Fotos da Libertah" class="foto7" id="foto7"/>
     <img src={foto4} alt="Fotos da Libertah" class="foto4" />
 </div>
 
@@ -101,9 +101,37 @@
         grid-row-end: 7;
     }
 
-    @media(max-width: 468px) {
+    @media (max-width: 500px) {
         h2 {
             font-size: 22px;
+        }
+
+        .fotosList {
+            grid-gap: 10px;
+        }
+
+        img:hover {
+            transform: scale(2.8, 2.8);
+        }
+
+        img:focus {
+            transform: scale(2.8, 2.8);
+        }
+
+        #foto1:focus {
+            transform: scale(2, 2);
+        }
+
+        #foto1:hover {
+            transform: scale(2, 2);
+        }
+
+        #foto7:focus {
+            transform: scale(4, 4);
+        }
+
+        #foto7:hover {
+            transform: scale(4, 4);
         }
     }
 </style>
