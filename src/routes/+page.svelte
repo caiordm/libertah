@@ -113,7 +113,7 @@
         }
 
         #musicas {
-            max-width: 90%;
+            width: 80%;
         }
 
         #redes {

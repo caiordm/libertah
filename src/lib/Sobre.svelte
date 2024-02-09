@@ -1,8 +1,7 @@
 <h2>A Libertah</h2>
 <p>
     A Libertah teve seu início em 03/01/2011, quando alguns jovens se reuniram
-    para tocar e louvar ao senhor, após muito tempo a banda começa a se tornar
-    muito legal, fazendo com que seja o que é hoje.
+    para tocar e louvar ao senhor, em 13 anos de história muitas coisas aconteceram com a Libertah, moldando assim a banda, fazendo com que ela seja o que é hoje.
 </p>
 
 <style>
