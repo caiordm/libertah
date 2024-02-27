@@ -1,6 +1,7 @@
 <script>
     import whatsappLogo from "../images/whatsapp.png";
     import gmailLogo from "../images/gmail.png";
+    import emailLogo from "../images/email.png";
 </script>
 
 <h2>Leve a Libertah até sua cidade</h2>
@@ -16,7 +17,7 @@
     <div class="email contact">
         <h3>Email</h3>
         <a href="mailto:bandalibertah@gmail.com"
-            ><img src={gmailLogo} alt="Email" title="Email" /><span
+            ><img src={emailLogo} alt="Email" title="Email" /><span
                 >bandalibertah@gmail.com</span
             ></a
         >
