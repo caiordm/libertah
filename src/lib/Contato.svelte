@@ -1,26 +1,19 @@
 <script>
-    import whatsappLogo from "../images/whatsapp.png";
-    import gmailLogo from "../images/gmail.png";
-    import emailLogo from "../images/email.png";
+    import instagramLogo from "../images/instagram.png";
 </script>
 
 <h2>Leve a Libertah até sua cidade</h2>
 <div class="contatos">
-    <div class="whatsapp contact">
-        <h3>Whatsapp</h3>
-        <a href="https://wa.me/81988777137"
-            ><img src={whatsappLogo} alt="Whatsapp" title="Whatsapp" /><span
-                >(81) 9 0000-0000</span
-            ></a
-        >
-    </div>
     <div class="email contact">
-        <h3>Email</h3>
-        <a href="mailto:bandalibertah@gmail.com"
-            ><img src={emailLogo} alt="Email" title="Email" /><span
-                >bandalibertah@gmail.com</span
-            ></a
-        >
+        <h3>Fale conosco pelo Instagram!</h3>
+        <a href="https://www.instagram.com/bandalibertah/">
+            <img
+                src={instagramLogo}
+                alt="Instagram da banda"
+                title="Instagram da banda"
+            />
+            <span>@bandalibertah</span>
+        </a>
     </div>
 </div>
 
@@ -50,11 +43,11 @@
 
     a {
         color: var(--mid-white);
-        font-size: 18px;
+        font-size: 22px;
         text-decoration: none;
         display: flex;
         align-items: center;
-        gap: 0.4rem;
+        gap: 0.6rem;
         transition: 0.1s;
         font-weight: 600;
     }
@@ -68,7 +61,7 @@
     }
 
     img {
-        max-width: 2rem;
+        max-width: 1.8rem;
     }
 
     @media (max-width: 468px) {
