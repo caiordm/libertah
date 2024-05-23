@@ -8,11 +8,11 @@
 
 <h2>Nossas plataformas digitais</h2>
 <div class="plataformsList">
-    <a href="https://deezer.page.link/67T3ULVhEwGnKzGf6" target="_blank" class="deezerClass" title="Deezer">
-        <img src={deezerLogo} alt="Deezer" />
-    </a>
     <a href="https://open.spotify.com/intl-pt/artist/6TibSMRNbrQMH3r1HjObxM?si=1LZEQ8L_S8Wl0roZs7a4VQ" target="_blank"  class="spotifyClass" title="Spotify" >
         <img src={spotifyLogo} alt="Spotify" />
+    </a>
+    <a href="https://deezer.page.link/67T3ULVhEwGnKzGf6" target="_blank" class="deezerClass" title="Deezer">
+        <img src={deezerLogo} alt="Deezer" />
     </a>
     <a href="https://music.apple.com/br/artist/banda-libertah/1516525424" target="_blank" class="appleMusicClass" title="Apple Music" >
         <img src={appleMusicLogo} alt="Apple Music" />

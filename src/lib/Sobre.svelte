@@ -1,7 +1,14 @@
 <h2>A Libertah</h2>
 <p>
-    A Libertah teve seu início em 03/01/2011, quando alguns jovens se reuniram
-    para tocar e louvar ao senhor, em 13 anos de história muitas coisas aconteceram com a Libertah, moldando assim a banda, fazendo com que ela seja o que é hoje.
+    A Libertah surgiu na cidade de Igarassu, região metropolitana do Recife
+    (PE), em 2011, ainda com o nome “Loucos por Jesus”. <br/><br/>Desde essa época, tem
+    como seu propósito base a evangelização, pautada em temas como fé,
+    felicidade e amor. Com mais de 10 anos de história a Libertah gravou 1 álbum
+    e 3 singles, passando por diversas formações. Hoje a banda é formada por
+    Tarcisio Lima (Voz), Caio (Teclados), Diego (Baixo e Voz), Joãozinho
+    (Bateria e Voz) e Ygor (Guitarras). <br/><br/>O nome teve como inspiração um versículo
+    da bíblia (João 8:32), que diz: “Conhecereis a verdade, e a verdade vos
+    libertará”.
 </p>
 
 <style>
@@ -16,7 +23,7 @@
         font-size: 20px;
     }
 
-    @media(max-width: 468px) {
+    @media (max-width: 468px) {
         h2 {
             font-size: 22px;
         }

@@ -10,18 +10,15 @@
 
 <div class="header">
     <ul>
-        <li><a href="#plataformas">Plataformas</a></li>
-        <li><a href="#abanda">A Libertah</a></li>
+        <li><a href="#abanda">Sobre nós</a></li>
         <li><a href="#musicas">Músicas</a></li>
+        <li><a href="#plataformas">Plataformas</a></li>
         <li><a href="#contato">Contato</a></li>
         <li><a href="#fotos">Fotos</a></li>
         <li><a href="#redes">Redes</a></li>
     </ul>
 </div>
 
-<section id="plataformas">
-    <Plataformas />
-</section>
 
 <section id="abanda">
     <Sobre />
@@ -29,6 +26,10 @@
 
 <section id="musicas">
     <Musicas />
+</section>
+
+<section id="plataformas">
+    <Plataformas />
 </section>
 
 <section id="contato">
