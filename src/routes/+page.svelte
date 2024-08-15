@@ -4,6 +4,7 @@
     import Musicas from "../lib/Musicas.svelte";
     import Contato from "../lib/Contato.svelte";
     import Fotos from "../lib/Fotos.svelte";
+    import Itens from "../lib/Itens.svelte";
     import Redes from "../lib/Redes.svelte";
     import Footer from "../lib/Footer.svelte";
 </script>
@@ -15,10 +16,10 @@
         <li><a href="#plataformas">Plataformas</a></li>
         <li><a href="#contato">Contato</a></li>
         <li><a href="#fotos">Fotos</a></li>
+        <li><a href="#items">Nossos itens</a></li>
         <li><a href="#redes">Redes</a></li>
     </ul>
 </div>
-
 
 <section id="abanda">
     <Sobre />
@@ -38,6 +39,10 @@
 
 <section id="fotos">
     <Fotos />
+</section>
+
+<section id="itens">
+    <Itens />
 </section>
 
 <section id="redes">
@@ -92,6 +97,10 @@
         width: 65%;
     }
 
+    #itens {
+        width: 65%;
+    }
+
     #redes {
         width: 65%;
         display: flex;
@@ -100,7 +109,7 @@
         align-items: start;
     }
 
-    @media(max-width: 468px) {
+    @media (max-width: 468px) {
         .header {
             max-width: 80%;
         }
@@ -122,6 +131,15 @@
             align-items: center;
             justify-content: center;
             gap: 2rem;
+            width: 80%;
+        }
+
+        #fotos {
+            width: 80%;
+        }
+
+        #itens {
+            width: 80%;
         }
     }
 </style>

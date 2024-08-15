@@ -47,6 +47,7 @@
     :root {
         --low-white: #cacaca;
         --mid-white: #e7f1f5;
+        --main-brown: #0a0404;
     }
 
     header {
