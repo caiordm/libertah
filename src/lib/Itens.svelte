@@ -4,11 +4,11 @@
 
 <h2>Nossos itens</h2>
 <div class="itensList">
-    <a href="#itens">
+    <div class="item">
         <img src={bottoms} alt="Bottoms" />
         <span>Bottom Logo</span>
         <a href="#itens" id="ver-mais">Em breve...</a>
-    </a>
+    </div>
 </div>
 
 <style>
@@ -17,16 +17,15 @@
         font-size: 32px;
     }
 
-    a {
+    .item {
         display: flex;
         flex-direction: column;
         gap: 1rem;
         align-items: flex-start;
-        text-decoration: none;
         width: 20%;
     }
 
-    a img {
+    .item img {
         width: 100%;
         aspect-ratio: 1 / 1;
         object-fit: cover;
@@ -74,7 +73,7 @@
             gap: 10px;
         }
 
-        a {
+        .item {
             width: 32%;
             gap: 0.6rem;
         }
