@@ -16,7 +16,7 @@
         <li><a href="#plataformas">Plataformas</a></li>
         <li><a href="#contato">Contato</a></li>
         <li><a href="#fotos">Fotos</a></li>
-        <li><a href="#items">Nossos itens</a></li>
+        <li><a href="#itens">Nossos itens</a></li>
         <li><a href="#redes">Redes</a></li>
     </ul>
 </div>
